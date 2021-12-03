@@ -13,4 +13,8 @@ app.get("/", urlencoded, function (req, res) {
      res.render('newfile')
  });
 
+ app.get("/missu", urlencoded, function (req, res) {
+    res.render('two')
+});
+
 app.listen(port)
